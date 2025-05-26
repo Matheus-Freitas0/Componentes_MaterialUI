@@ -1,5 +1,6 @@
+import Typography from '@mui/material/Typography'
 export default function PageTables() {
     return (
-        <h1>Page Tables</h1>
+        <Typography variant="h3" color="initial" sx={{mb: 2}}> Page Tables</Typography>
     )
 }
