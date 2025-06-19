@@ -8,6 +8,8 @@ import IconButton1 from "../components/buttons/IconButton1";
 import FloatingButtons1 from "../components/buttons/FloatingButtons1";
 import ButtonGroup3 from "../components/buttons/ButtonGroup3";
 import LoadingButton1 from "../components/buttons/LoadingButton1";
+import ToggleButton1 from "../components/buttons/ToggleButton1";
+import ToggleButton2 from "../components/buttons/ToggleButton2";
 
 export default function PageButtons() {
   return (
@@ -41,6 +43,16 @@ export default function PageButtons() {
       <ButtonGroup1 />
       <ButtonGroup2 />
       <ButtonGroup3 />
+
+      <Typography
+        variant="h3"
+        color="initial"
+        sx={{ mt: 2, mb:2, fontFamily: "Merienda", fontSize: "2rem" }}
+      >
+        Toggle buttons
+      </Typography>
+      <ToggleButton1 />
+      <ToggleButton2 />
 
       <Typography
         variant="h3"
